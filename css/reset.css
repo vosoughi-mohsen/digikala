@@ -1,0 +1,20 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,*::placeholder{
+    font-family:'iranyekan',sans-serif;
+    background: #fff;
+}
+
+.container{
+    max-width: 1336px;
+}
+
+.container-lg{
+    min-width: 1920px;
+}
+.container-menu{
+    min-width: 1676px;
+}

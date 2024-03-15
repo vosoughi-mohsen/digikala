@@ -1,0 +1,27 @@
+.banners{
+
+    margin-top: 25px;
+    margin-bottom:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.banners .img img{
+    width: 322px;
+    height: 240px;
+    border-radius:25px;
+}
+.banners2{
+
+   margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.banners2 .img a img{
+    width: 100%;
+    height: 264px;
+    border-radius:25px;
+}

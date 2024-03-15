@@ -1,0 +1,58 @@
+.promotion{
+   
+    margin: 50px ;
+}
+.promotion .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.promot{
+    width: 100%;
+   
+    padding: 8px 12px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+.promot .category{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width:160px;
+    height: auto;
+padding:16px 4px;
+    border: 1px solid rgba(0,0,0,.05);
+}
+.promot .category a{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+ padding: 12px;
+    
+}
+
+.promot .category a .img{
+    height: 60px;
+    width: 60px;
+}
+.promot .category a .img img{
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.promot .category a .caption{
+    font-size: 14px;;
+    font-weight: bold;
+    margin: 8px 0 0 0;
+}

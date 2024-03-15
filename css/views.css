@@ -1,0 +1,85 @@
+.views {
+  background: #fff;
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+
+  border-radius: 16px;
+  flex-flow: row nowrap;
+  margin: 25px auto;
+}
+.views .view {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-flow: column nowrap;
+  width: 25%;
+  height: 100%;
+border: 1px solid #e0e0e2;
+
+  padding: 8px 20px;
+}
+.views .view:first-child {
+border-radius: 0 16px 16px 0;
+}
+.views .view:last-child {
+border-radius: 16px 0 0 16px;
+}
+.views .view .title {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-flow: column nowrap;
+  gap: 5px;
+  padding-bottom: 10px;
+}
+.views .view .title h2 {
+  color: #23254e;
+  font-size: 16px;
+}
+.views .view .title p {
+  color: #81858b;
+  font-size: 14px;
+}
+.views .view .images {
+  gap: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding:10px 0;
+  object-fit: cover;
+}
+.views .view .images a {
+  margin: 0;
+  padding: 0;
+}
+.views .view .images a img {
+  width: 130px;
+  height: 130px;
+  margin: 0;
+ 
+  
+}
+.views .view .images a:first-child img {
+    border-left: 1px solid #e0e0e2;
+    border-bottom: 1px solid #e0e0e2;
+}
+.views .view .images a:nth-child(3) img {
+    border-left: 1px solid #e0e0e2;
+}
+.views .view .images a:nth-child(2) img {
+    border-bottom: 1px solid #e0e0e2;
+}
+.views .view .all {
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.views .view .all a {
+  text-decoration: none;
+}

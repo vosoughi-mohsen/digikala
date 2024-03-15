@@ -1,0 +1,48 @@
+/* width */
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  body::-webkit-scrollbar-thumb {
+    background: #bbb;
+  }
+  
+/* width */
+.nav3::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  .nav3::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .nav3::-webkit-scrollbar-thumb {
+    background: #bbb;
+  }
+  
+/* width */
+.list2::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  .list2::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .list2::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 8px;
+  }
+  
+ 
+  
